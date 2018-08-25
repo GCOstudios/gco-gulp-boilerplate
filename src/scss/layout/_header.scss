@@ -1,0 +1,24 @@
+.site-header {  
+  background-color: $belize-hole;
+  width: 100%;
+  padding: cre(15) 0;
+  margin-bottom: cre(40);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+.header-container {
+  @include compartment;
+  display: flex;
+
+  a {
+    color: white;
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+}
